@@ -1,3 +1,4 @@
-# Hi I am Areen Churi
-!!! info
-	This is a note
+# `Hi I am Areen Churi`
+!!! warning ""
+This person is highly autistic and stupid
+	
