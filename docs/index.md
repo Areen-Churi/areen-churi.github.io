@@ -1,4 +1,4 @@
 # `Hi I am Areen Churi`
-!!! warning ""
-This person is highly autistic and stupid
-	
+!!! note "About me"
+	- Hello I am Areen
+	- I study in 2nd standard
