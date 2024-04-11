@@ -1,7 +1,7 @@
 # DSA portfolio
 
 ## Insertion in Circular Linked Lists
-![circular linked list](https://static.wixstatic.com/media/6d249d_8946860ac9c945608d30fc66e1b31b63~mv2.jpg/v1/fit/w_507,h_555,q_90/6d249d_8946860ac9c945608d30fc66e1b31b63~mv2.jpg)
+![ insertion in circular linked list](https://static.wixstatic.com/media/6d249d_8946860ac9c945608d30fc66e1b31b63~mv2.jpg/v1/fit/w_507,h_555,q_90/6d249d_8946860ac9c945608d30fc66e1b31b63~mv2.jpg)
 ```c
 #include<stdio.h>
 #include<stdlib.h>
@@ -154,6 +154,8 @@ int main ()
 ```
 
 ## Deletion in Circular Linked Lists
+![ deletion in circular linked list](https://static.wixstatic.com/media/6d249d_8946860ac9c945608d30fc66e1b31b63~mv2.jpg/v1/fit/w_507,h_555,q_90/6d249d_8946860ac9c945608d30fc66e1b31b63~mv2.jpg)
+
 ```c
 #include<stdio.h>
 #include<stdlib.h>
@@ -351,8 +353,9 @@ int main ()
 
   return 0;
 }
-
-## Traversal of Circular Linked lists  
+```
+## Traversal of Circular Linked lists
+![ Traversal of Circular Linked lists](https://static.wixstatic.com/media/6d249d_8946860ac9c945608d30fc66e1b31b63~mv2.jpg/v1/fit/w_507,h_555,q_90/6d249d_8946860ac9c945608d30fc66e1b31b63~mv2.jpg) 
 ```c
 /* Function to traverse a given Circular linked list and print nodes */
 void printList(struct Node *first)
@@ -375,6 +378,7 @@ void printList(struct Node *first)
 ```
 
 ## Insertion in Doubly Circular Linked Lists
+![Insertion in Doubly Circular Linked list](https://static.wixstatic.com/media/6d249d_83ec16e65722484caa511c00ff73fe5b~mv2.png/v1/fit/w_507,h_555,q_90/6d249d_83ec16e65722484caa511c00ff73fe5b~mv2.png)
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -485,6 +489,7 @@ int main() {
 ```
 
 ## Deletion in Doubly Circular Linked Lists
+![ Deletion in Doubly Circular Linked Lists](https://static.wixstatic.com/media/6d249d_83ec16e65722484caa511c00ff73fe5b~mv2.png/v1/fit/w_507,h_555,q_90/6d249d_83ec16e65722484caa511c00ff73fe5b~mv2.png)
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -627,6 +632,7 @@ int main() {
 ```
 
 ## Traversal of Doubly Circular Linked lists
+![ Traversal of Doubly Circular Linked lists](https://static.wixstatic.com/media/6d249d_83ec16e65722484caa511c00ff73fe5b~mv2.png/v1/fit/w_507,h_555,q_90/6d249d_83ec16e65722484caa511c00ff73fe5b~mv2.png)
 ```c
 #include <stdio.h>
 #include <stdlib.h>
