@@ -699,6 +699,7 @@ int main() {
 }
 ```
 ## Double Ended Queue Operation
+![double ended queue](https://static.wixstatic.com/media/6d249d_c5be0e25bf924951943749ad73f18521~mv2.webp/v1/fit/w_868,h_801,q_90/6d249d_c5be0e25bf924951943749ad73f18521~mv2.webp)
 ```c
 #include <stdio.h>
 #include <stdlib.h>
