@@ -3,6 +3,7 @@ site_url: "https://areenchuri.github.io"
 nav:
   - Home: index.md
   - Hobbies: hobbies.md
+  - DSA: code.md
 
 theme:
   name: material
