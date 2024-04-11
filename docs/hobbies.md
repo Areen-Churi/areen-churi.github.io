@@ -8,7 +8,7 @@
 	- Hanging out with friends
 
  
- !!! success
- 	- Won TechnoFest SRMIST, conducted by faculties 
-  	- Participated in AI hackathon
-   	- Got 3rd price in Innofusion '24
+!!! note "My Achievements"
+	- Won TechnoFest 23, conducted by faculty
+ 	- Participated in AI hackathon
+  	- 3rd price in innofusion '24
