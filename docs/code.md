@@ -863,7 +863,6 @@ for (c = key; *c != '\\0'; ++c) {
 return hash_value % array_size;
 }
 ```
-# hashing
 ## question: "Why Hashing?",
 answer:
 Applications:
