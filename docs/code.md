@@ -901,7 +901,7 @@ int main() {
     
  
 ## question: "Why Use B+ Trees? - Need and Applications",
-    "answer": B+ Trees are widely used in database management systems and file systems due to their efficiency in handling large amounts of data. Here are a few reasons why B+ Trees are preferred over other data structures:  
+    answer: B+ Trees are widely used in database management systems and file systems due to their efficiency in handling large amounts of data. Here are a few reasons why B+ Trees are preferred over other data structures:  
 
     - Efficient Searching 
     - Disk-Based Storage 
@@ -988,61 +988,3 @@ int main() {
     - The height of a Binomial Heap of order k is k.
  
 
-export default function Page() {
-  return (
-    <section className="grid place-items-center p-1 lg:p-16 text-white">
-      <h1 className={" text-2xl lg:text-6xl text-center p-8"}>Code</h1>
-      <div className="grid grid-cols-1 gap-2">
-        <div className="grid grid-cols-1 gap-2">
-          <h2 className={" text-xl lg:text-4xl text-center p-4 bg-slate-600"}>
-            Insertion in Circular Linked Lists
-          </h2>
-          <ContentDisplay content={insert_circle} />
-        </div>
-        <div className="grid grid-cols-1 gap-2">
-          <h2 className={" text-xl lg:text-4xl text-center p-4 bg-slate-600"}>
-            Deletion in Circular Linked Lists
-          </h2>
-          <ContentDisplay content={delete_circle} />
-        </div>
-        <div className="grid grid-cols-1 gap-2">
-          <h2 className={" text-xl lg:text-4xl text-center p-4 bg-slate-600"}>
-            Traversal of Circular Linked lists
-          </h2>
-          <ContentDisplay content={traversal_article} />
-        </div>
-        <div className="grid grid-cols-1 gap-2">
-          <h2 className={" text-xl lg:text-3xl text-center p-4 bg-slate-600"}>
-            Insertion in Doubly Circular Linked Lists
-          </h2>
-          <ContentDisplay content={insert_double_linked_list} />
-        </div>
-        <div className="grid grid-cols-1 gap-2">
-          <h2 className={" text-xl lg:text-3xl text-center p-4 bg-slate-600"}>
-            Deletion in Doubly Circular Linked Lists
-          </h2>
-          <ContentDisplay content={delete_double_linked_list} />
-        </div>
-        <div className="grid grid-cols-1 gap-2">
-          <h2 className={" text-xl lg:text-3xl text-center p-4 bg-slate-600"}>
-            Traversal of Doubly Circular Linked lists
-          </h2>
-          <ContentDisplay content={traversal_double_linked_list} />
-        </div>
-      </div>
-      <div className="h-full py-8">
-        <div className="w-full h-full grid grid-cols-1 gap-2">
-          {faqs.map((faq, index) => {
-            return (
-              <FAQ
-                key={index}
-                question={faq.question}
-                answer={faq.answer}
-              />
-            )
-          })}
-        </div>
-      </div>
-    </section>
-  );
-}
