@@ -849,7 +849,7 @@ int main() {
 }
 ```
 
-   question: "What is Hashing?",
+  ## question: "What is Hashing?",
     answer:
       `Hashing is a mathematical function that converts data into a string of letters and numbers that can't be reversed or decoded. Hashing is used in cybersecurity to protect sensitive information like passwords, documents, and messages. The process uses hash functions and algorithms to assign a numeric value to a string, which makes data retrieval faster and enables encryption
 
@@ -876,7 +876,7 @@ Hashing has numerous applications across computer science. Here are a few common
     - Data Integrity
     - Data Lookups
     - Password Storage
-
+	',
 '''
   }, 
   {
