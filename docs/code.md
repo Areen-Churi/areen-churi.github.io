@@ -849,7 +849,7 @@ int main() {
 }
 ```
 
-## Hashing
+# Hashing
 
 # question: "What is Hashing?",
 answer:
