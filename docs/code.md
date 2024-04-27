@@ -863,7 +863,7 @@ int main() {
       }
       
  
- ##   question: "Why Hashing?",
+ ## question: "Why Hashing?",
     answer:
       Applications:
 
