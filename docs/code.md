@@ -850,10 +850,9 @@ int main() {
 ```
 
 ## question: "What is Hashing?",
-```c
     answer:
       Hashing is a mathematical function that converts data into a string of letters and numbers that can't be reversed or decoded. Hashing is used in cybersecurity to protect sensitive information like passwords, documents, and messages. The process uses hash functions and algorithms to assign a numeric value to a string, which makes data retrieval faster and enables encryption
-
+```c
       unsigned long hash_function(const char *key, int array_size) {
         unsigned long hash_value = 0;
         const char *c;
@@ -865,7 +864,6 @@ int main() {
 ```
  
  ## question: "Why Hashing?",
- ```c
     answer:
       Applications:
 
@@ -874,12 +872,10 @@ int main() {
     - Data Integrity
     - Data Lookups
     - Password Storage
-```
     
 # question: "What is a B+ Tree?",
-```c
     answer: A B+ Tree is a self-balancing tree data structure designed for efficient searching and retrieval of data, particularly for large datasets stored on disk. It's an improvement over Binary Search Trees (BSTs) due to its ability to handle larger amounts of data efficiently.
-    
+ ```c   
     # Traversing a B+ Tree
     void inOrderTraversal(struct bPlusTreeNode *node) {
       if (node != NULL) {
@@ -906,21 +902,18 @@ int main() {
     
  
 ## question: "Why Use B+ Trees? - Need and Applications",
-```c
     answer: B+ Trees are widely used in database management systems and file systems due to their efficiency in handling large amounts of data. Here are a few reasons why B+ Trees are preferred over other data structures:  
 
     - Efficient Searching 
     - Disk-Based Storage 
     - Range Queries
     - Sequential Access
-```
 
  
 ##   question: "What are Heaps?",
-```c
     answer: A Heap is a specialized tree-based data structure that satisfies the heap property. It's commonly used to implement priority queues and sorting algorithms. There are two main types of heaps:
 
-
+```c
     - Max Heap 
     - Min Heap.
 
@@ -940,7 +933,6 @@ int main() {
     
  
  ##   question: "Application of Heaps",
- ```c
     answer: Applications of Heaps: 
     
     - Priority Queues 
@@ -948,12 +940,10 @@ int main() {
     - Heap Sort 
     - Memory Management 
     - Job Scheduling
- ```
 
  ##   question: "What are Binomial Heaps?",
- ```c
     answer: Binomial heaps are a specialized type of tree-based data structure designed for efficient merging operations. They are less commonly used than basic heaps (min-heaps and max-heaps) but find applications in more advanced algorithms where frequent merging is needed.
-
+```c
     // Merging Two Binomial Heaps
     struct Node* mergeBinomialHeaps(struct Node* h1, struct Node* h2) {
       struct Node* h = NULL;
@@ -993,13 +983,12 @@ int main() {
 ```
 
 ##    question: "Properties of Binomial Heaps",
-```c
     answer: Properties of Binomial Heaps:
     
     - A Binomial Heap of order k has 2^k nodes.
     - A Binomial Heap of order k has kCj nodes at depth j.
     - The number of nodes in a Binomial Heap of order k is 2^k.
     - The height of a Binomial Heap of order k is k.
-```
+
  
 
