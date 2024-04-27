@@ -862,8 +862,7 @@ int main() {
         return hash_value % array_size;
       }
       `,
-  }, 
-  {
+ 
     question: "Why Hashing?",
     answer:
       `
@@ -876,8 +875,7 @@ Hashing has numerous applications across computer science. Here are a few common
     - Password Storage
 
       `,
-  }, 
-  {
+  
     question: "What is a B+ Tree?",
     answer: `A B+ Tree is a self-balancing tree data structure designed for efficient searching and retrieval of data, particularly for large datasets stored on disk. It's an improvement over Binary Search Trees (BSTs) due to its ability to handle larger amounts of data efficiently.
     
@@ -904,8 +902,7 @@ Hashing has numerous applications across computer science. Here are a few common
     }
     
     `
-  },
-  {
+  
     question: "Why Use B+ Trees? - Need and Applications",
     "answer": `B+ Trees are widely used in database management systems and file systems due to their efficiency in handling large amounts of data. Here are a few reasons why B+ Trees are preferred over other data structures:  
 
@@ -915,8 +912,7 @@ Hashing has numerous applications across computer science. Here are a few common
     - Sequential Access
 
     `
-  },
-  {
+  
     question: "What are Heaps?",
     answer: `A Heap is a specialized tree-based data structure that satisfies the heap property. It's commonly used to implement priority queues and sorting algorithms. There are two main types of heaps:
 
