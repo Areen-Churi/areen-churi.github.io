@@ -849,20 +849,22 @@ int main() {
 }
 ```
 
-  # question: "What is Hashing?",
-  '''c
-    answer:
-      Hashing is a mathematical function that converts data into a string of letters and numbers that can't be reversed or decoded. Hashing is used in cybersecurity to protect sensitive information like passwords, documents, and messages. The process uses hash functions and algorithms to assign a numeric value to a string, which makes data retrieval faster and enables encryption
+# question: "What is Hashing?",
+'''c
+answer:
+Hashing is a mathematical function that converts data into a string of letters and numbers that can't be reversed or decoded. Hashing is used in 
+cybersecurity to protect sensitive information like passwords, documents, and messages. The process uses hash functions and algorithms to assign a numeric value 
+to a string, which makes data retrieval faster and enables encryption
 
-      unsigned long hash_function(const char *key, int array_size) {
-        unsigned long hash_value = 0;
-        const char *c;
-        for (c = key; *c != '\\0'; ++c) {
-          hash_value += *c;
-        }
-        return hash_value % array_size;
-      }
- '''
+unsigned long hash_function(const char *key, int array_size) {
+unsigned long hash_value = 0;
+const char *c;
+for (c = key; *c != '\\0'; ++c) {
+  hash_value += *c;
+}
+return hash_value % array_size;
+}
+'''
       
  
  # question: "Why Hashing?",
@@ -876,6 +878,7 @@ int main() {
     - Password Storage
     
 # question: "What is a B+ Tree?",
+'''c
     answer: A B+ Tree is a self-balancing tree data structure designed for efficient searching and retrieval of data, particularly for large datasets stored on disk. It's an improvement over Binary Search Trees (BSTs) due to its ability to handle larger amounts of data efficiently.
     
     # Traversing a B+ Tree
@@ -899,6 +902,7 @@ int main() {
         }
       }
     }
+    '''
     
     
  
