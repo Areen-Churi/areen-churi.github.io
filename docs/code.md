@@ -849,7 +849,7 @@ int main() {
 }
 ```
 
-# hashing
+## hashing
 ## question: "What is Hashing?",
 answer:
 Hashing is a mathematical function that converts data into a string of letters and numbers that can't be reversed or decoded. Hashing is used in cybersecurity to protect sensitive information like passwords, documents, and messages. The process uses hash functions and algorithms to assign a numeric value to a string, which makes data retrieval faster and enables encryption
@@ -863,6 +863,7 @@ for (c = key; *c != '\\0'; ++c) {
 return hash_value % array_size;
 }
 ```
+
 ## question: "Why Hashing?",
 answer:
 Applications:
@@ -873,7 +874,7 @@ Hashing has numerous applications across computer science. Here are a few common
 - Data Lookups
 - Password Storage
 
-# B+ Trees
+## B+ Trees
 ## question: "What is a B+ Tree?",
 answer: A B+ Tree is a self-balancing tree data structure designed for efficient searching and retrieval of data, particularly for large datasets stored on disk. It's an improvement over Binary Search Trees (BSTs) due to its ability to handle larger amounts of data efficiently.
 ```c   
@@ -911,7 +912,7 @@ answer: B+ Trees are widely used in database management systems and file systems
 - Sequential Access
 
 
-# Heaps
+## Heaps
 ##   question: "What are Heaps?",
 answer: A Heap is a specialized tree-based data structure that satisfies the heap property. It's commonly used to implement priority queues and sorting algorithms. There are two main types of heaps:
 
