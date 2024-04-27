@@ -861,11 +861,8 @@ int main() {
         }
         return hash_value % array_size;
       }
-      `,
-  }, 
-  {
+      
  
- '''
  ##   question: "Why Hashing?",
     answer:
       `
@@ -876,11 +873,8 @@ Hashing has numerous applications across computer science. Here are a few common
     - Data Integrity
     - Data Lookups
     - Password Storage
-	',
-'''
-  }, 
-  {
-    question: "What is a B+ Tree?",
+    
+## question: "What is a B+ Tree?",
     answer: `A B+ Tree is a self-balancing tree data structure designed for efficient searching and retrieval of data, particularly for large datasets stored on disk. It's an improvement over Binary Search Trees (BSTs) due to its ability to handle larger amounts of data efficiently.
     
     # Traversing a B+ Tree
@@ -905,7 +899,7 @@ Hashing has numerous applications across computer science. Here are a few common
       }
     }
     
-    `
+    
   },
   {
     question: "Why Use B+ Trees? - Need and Applications",
