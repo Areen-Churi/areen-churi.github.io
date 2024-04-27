@@ -875,6 +875,7 @@ Hashing has numerous applications across computer science. Here are a few common
 - Password Storage
 
 ## B+ Trees
+
 # question: "What is a B+ Tree?",
 answer: A B+ Tree is a self-balancing tree data structure designed for efficient searching and retrieval of data, particularly for large datasets stored on disk. It's an improvement over Binary Search Trees (BSTs) due to its ability to handle larger amounts of data efficiently.
 ```c   
