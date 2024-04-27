@@ -849,7 +849,7 @@ int main() {
 }
 ```
 
-# question: "What is Hashing?",
+## question: "What is Hashing?",
 answer:
 Hashing is a mathematical function that converts data into a string of letters and numbers that can't be reversed or decoded. Hashing is used in cybersecurity to protect sensitive information like passwords, documents, and messages. The process uses hash functions and algorithms to assign a numeric value to a string, which makes data retrieval faster and enables encryption
 ```c
@@ -873,7 +873,7 @@ Hashing has numerous applications across computer science. Here are a few common
 - Data Lookups
 - Password Storage
 
-# question: "What is a B+ Tree?",
+## question: "What is a B+ Tree?",
 answer: A B+ Tree is a self-balancing tree data structure designed for efficient searching and retrieval of data, particularly for large datasets stored on disk. It's an improvement over Binary Search Trees (BSTs) due to its ability to handle larger amounts of data efficiently.
 ```c   
 # Traversing a B+ Tree
