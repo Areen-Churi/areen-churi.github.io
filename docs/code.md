@@ -849,8 +849,8 @@ int main() {
 }
 ```
 
-## hashing
-# question: "What is Hashing?",
+# hashing
+## question: "What is Hashing?",
 answer:
 Hashing is a mathematical function that converts data into a string of letters and numbers that can't be reversed or decoded. Hashing is used in cybersecurity to protect sensitive information like passwords, documents, and messages. The process uses hash functions and algorithms to assign a numeric value to a string, which makes data retrieval faster and enables encryption
 ```c
@@ -863,8 +863,8 @@ for (c = key; *c != '\\0'; ++c) {
 return hash_value % array_size;
 }
 ```
-## hashing
-# question: "Why Hashing?",
+# hashing
+## question: "Why Hashing?",
 answer:
 Applications:
 
@@ -874,6 +874,7 @@ Hashing has numerous applications across computer science. Here are a few common
 - Data Lookups
 - Password Storage
 
+# B+ Trees
 ## question: "What is a B+ Tree?",
 answer: A B+ Tree is a self-balancing tree data structure designed for efficient searching and retrieval of data, particularly for large datasets stored on disk. It's an improvement over Binary Search Trees (BSTs) due to its ability to handle larger amounts of data efficiently.
 ```c   
@@ -902,7 +903,7 @@ if (!node->isLeaf) {
 
 
 
-# question: "Why Use B+ Trees? - Need and Applications",
+## question: "Why Use B+ Trees? - Need and Applications",
 answer: B+ Trees are widely used in database management systems and file systems due to their efficiency in handling large amounts of data. Here are a few reasons why B+ Trees are preferred over other data structures:  
 
 - Efficient Searching 
@@ -911,7 +912,8 @@ answer: B+ Trees are widely used in database management systems and file systems
 - Sequential Access
 
 
-#   question: "What are Heaps?",
+# Heaps
+##   question: "What are Heaps?",
 answer: A Heap is a specialized tree-based data structure that satisfies the heap property. It's commonly used to implement priority queues and sorting algorithms. There are two main types of heaps:
 
 ```c
@@ -933,7 +935,7 @@ i = parent(i);
 ```
 
 
-#   question: "Application of Heaps",
+##   question: "Application of Heaps",
 answer: Applications of Heaps: 
 
 - Priority Queues 
@@ -942,7 +944,8 @@ answer: Applications of Heaps:
 - Memory Management 
 - Job Scheduling
 
-#   question: "What are Binomial Heaps?",
+# Binomial Heaps
+##   question: "What are Binomial Heaps?",
 answer: Binomial heaps are a specialized type of tree-based data structure designed for efficient merging operations. They are less commonly used than basic heaps (min-heaps and max-heaps) but find applications in more advanced algorithms where frequent merging is needed.
 ```c
 // Merging Two Binomial Heaps
@@ -983,7 +986,7 @@ return h;
 }
 ```
 
-#    question: "Properties of Binomial Heaps",
+##    question: "Properties of Binomial Heaps",
 answer: Properties of Binomial Heaps:
 
 - A Binomial Heap of order k has 2^k nodes.
