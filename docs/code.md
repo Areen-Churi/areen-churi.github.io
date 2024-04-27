@@ -849,7 +849,7 @@ int main() {
 }
 ```
 
-  question: "What is Hashing?",
+   question: "What is Hashing?",
     answer:
       `Hashing is a mathematical function that converts data into a string of letters and numbers that can't be reversed or decoded. Hashing is used in cybersecurity to protect sensitive information like passwords, documents, and messages. The process uses hash functions and algorithms to assign a numeric value to a string, which makes data retrieval faster and enables encryption
 
@@ -862,8 +862,11 @@ int main() {
         return hash_value % array_size;
       }
       `,
+  }, 
+  {
  
-    question: "Why Hashing?",
+ '''
+ ##   question: "Why Hashing?",
     answer:
       `
       Applications:
@@ -874,8 +877,9 @@ Hashing has numerous applications across computer science. Here are a few common
     - Data Lookups
     - Password Storage
 
-      `,
-  
+'''
+  }, 
+  {
     question: "What is a B+ Tree?",
     answer: `A B+ Tree is a self-balancing tree data structure designed for efficient searching and retrieval of data, particularly for large datasets stored on disk. It's an improvement over Binary Search Trees (BSTs) due to its ability to handle larger amounts of data efficiently.
     
@@ -902,7 +906,8 @@ Hashing has numerous applications across computer science. Here are a few common
     }
     
     `
-  
+  },
+  {
     question: "Why Use B+ Trees? - Need and Applications",
     "answer": `B+ Trees are widely used in database management systems and file systems due to their efficiency in handling large amounts of data. Here are a few reasons why B+ Trees are preferred over other data structures:  
 
@@ -912,7 +917,8 @@ Hashing has numerous applications across computer science. Here are a few common
     - Sequential Access
 
     `
-  
+  },
+  {
     question: "What are Heaps?",
     answer: `A Heap is a specialized tree-based data structure that satisfies the heap property. It's commonly used to implement priority queues and sorting algorithms. There are two main types of heaps:
 
