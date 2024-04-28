@@ -849,7 +849,7 @@ int main() {
 }
 ```
 
-# Hashing
+## Hashing
 
 ## question: "What is Hashing?",
 answer:
@@ -875,7 +875,7 @@ Hashing has numerous applications across computer science. Here are a few common
 - Data Lookups
 - Password Storage
 
-# B+ Trees
+## B+ Trees
 
 ## question: "What is a B+ Tree?",
 answer: A B+ Tree is a self-balancing tree data structure designed for efficient searching and retrieval of data, particularly for large datasets stored on disk. It's an improvement over Binary Search Trees (BSTs) due to its ability to handle larger amounts of data efficiently.
@@ -914,7 +914,7 @@ answer: B+ Trees are widely used in database management systems and file systems
 - Sequential Access
 
 
-# Heaps
+## Heaps
 
 ##   question: "What are Heaps?",
 answer: A Heap is a specialized tree-based data structure that satisfies the heap property. It's commonly used to implement priority queues and sorting algorithms. There are two main types of heaps:
@@ -947,7 +947,7 @@ answer: Applications of Heaps:
 - Memory Management 
 - Job Scheduling
 
-# Binomial Heaps
+## Binomial Heaps
 
 ##   question: "What are Binomial Heaps?",
 answer: Binomial heaps are a specialized type of tree-based data structure designed for efficient merging operations. They are less commonly used than basic heaps (min-heaps and max-heaps) but find applications in more advanced algorithms where frequent merging is needed.
